@@ -17,31 +17,31 @@
 //
 // ID   DEX         Pool        Multiplier   LP Token Info
 // -----------------------------------------------------------------------------------
-//  0   SushiSwap   ETH-USDT    1x           https://etherscan.io/address/0x06da0fd433c1a5d7a4faa01111c044910a184553
-//  1   SushiSwap   USDC-ETH    1x           https://etherscan.io/address/0x397ff1542f962076d0bfe58ea045ffa2d347aca0
-//  2   SushiSwap   SUSHI-ETH   1x           https://etherscan.io/address/0x795065dcc9f64b5614c407a6efdc400da6221fb0
-//  3   SushiSwap   DAI-ETH     1x           https://etherscan.io/address/0xc3d03e4f041fd4cd388c549ee2a29a9e5075882f
-//  4   SushiSwap   YFI-ETH     1x           https://etherscan.io/address/0x088ee5007c98a9677165d78dd2109ae4a3d04d0c
-//  5   SushiSwap   LINK-ETH    1x           https://etherscan.io/address/0xc40d16476380e4037e6b1a2594caf6a6cc8da967
-//  6   SushiSwap   sUSD-ETH    1x           https://etherscan.io/address/0xf1f85b2c54a2bd284b1cf4141d64fd171bd85539
-//  7   SushiSwap   LEND-ETH    1x           https://etherscan.io/address/0x5e63360e891bd60c69445970256c260b0a6a54c6
-//  8   UniswapV2   DAI-ETH     1x           https://etherscan.io/address/0xa478c2975ab1ea89e8196811f51a7b7ade33eb11
-//  9   UniswapV2   ETH-AMPL    1x           https://etherscan.io/address/0xc5be99a02c6857f9eac67bbce58df5572498f40c
-// 18   UniswapV2   WBTC-ETH    1x           https://etherscan.io/address/0xbb2b8038a1640196fbe3e38816f3e67cba72d940
-// 19   UniswapV2   ETH-USDT    1x           https://etherscan.io/address/0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852
-// 20   UniswapV2   USDC-ETH    1x           https://etherscan.io/address/0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc
-// 21   UniswapV2   UNI-ETH     1x           https://etherscan.io/address/0xd3d2e2692501a5c9ca623199d38826e513033a17
+//  0   CLOSED   ETH-USDT    0x           https://etherscan.io/address/0x06da0fd433c1a5d7a4faa01111c044910a184553
+//  1   CLOSED   USDC-ETH    0x           https://etherscan.io/address/0x397ff1542f962076d0bfe58ea045ffa2d347aca0
+//  2   CLOSED   SUSHI-ETH   0x           https://etherscan.io/address/0x795065dcc9f64b5614c407a6efdc400da6221fb0
+//  3   CLOSED   DAI-ETH     0x           https://etherscan.io/address/0xc3d03e4f041fd4cd388c549ee2a29a9e5075882f
+//  4   CLOSED   YFI-ETH     0x           https://etherscan.io/address/0x088ee5007c98a9677165d78dd2109ae4a3d04d0c
+//  5   CLOSED   LINK-ETH    0x           https://etherscan.io/address/0xc40d16476380e4037e6b1a2594caf6a6cc8da967
+//  6   CLOSED   sUSD-ETH    0x           https://etherscan.io/address/0xf1f85b2c54a2bd284b1cf4141d64fd171bd85539
+//  7   CLOSED   LEND-ETH    0x           https://etherscan.io/address/0x5e63360e891bd60c69445970256c260b0a6a54c6
+//  8   CLOSED   DAI-ETH     0x           https://etherscan.io/address/0xa478c2975ab1ea89e8196811f51a7b7ade33eb11
+//  9   CLOSED   ETH-AMPL    0x           https://etherscan.io/address/0xc5be99a02c6857f9eac67bbce58df5572498f40c
+// 18   CLOSED   WBTC-ETH    0x           https://etherscan.io/address/0xbb2b8038a1640196fbe3e38816f3e67cba72d940
+// 19   CLOSED   ETH-USDT    0x           https://etherscan.io/address/0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852
+// 20   CLOSED   USDC-ETH    0x           https://etherscan.io/address/0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc
+// 21   CLOSED   UNI-ETH     0x           https://etherscan.io/address/0xd3d2e2692501a5c9ca623199d38826e513033a17
 //
 // * Superpools: *
 //
 // ID   DEX         Pool        Multiplier   LP Token Info
 // -----------------------------------------------------------------------------------
-// 10   UniswapV2   SWSH-ETH    5x 
+// 10   UniswapV2   SWSH-ETH    1x 
 //
-// 11   UniswapV2   RTC-ETH     10x          https://etherscan.io/address/0xfde42a9422cb0ee84ede728ab503487b382d135e
+// 11   UniswapV2   RTC-ETH     1x           https://etherscan.io/address/0xfde42a9422cb0ee84ede728ab503487b382d135e
 //      (xoxo for patience it pays off)
 //
-// 12   UniswapV2   LIQLO-ETH   10x          https://etherscan.io/address/0xd18aea36557ade95d23fb051b68443dd99b1b663
+// 12   UniswapV2   LIQLO-ETH   1x           https://etherscan.io/address/0xd18aea36557ade95d23fb051b68443dd99b1b663
 //      (liqlos are diamonds)
 //
 // 13   CLOSED      LIQLO-RTC   0x           https://etherscan.io/address/0xfe830ed3885e655621f8bcfc4d19abbca42bff9c
@@ -54,19 +54,21 @@
 //
 // 16   CLOSED     SPECTRE-RTC  0x           https://etherscan.io/address/0x04b5473d557c59aa60eb1ad776240fe82b9810bd
 //
-// 17   UniswapV2  SPECTRE-ETH  5x           https://etherscan.io/address/0x5ed6f4c59004bee9f440e84969a93eccac580b40
+// 17   UniswapV2  SPECTRE-ETH  1x           https://etherscan.io/address/0x5ed6f4c59004bee9f440e84969a93eccac580b40
 //
-// 22   UniswapV2  PSHP-ETH     5x           https://etherscan.io/address/0x8a390f95d5afaa9f6307be48b84816ba4b1d9cc7
+// 22   UniswapV2  PSHP-ETH     1x           https://etherscan.io/address/0x8a390f95d5afaa9f6307be48b84816ba4b1d9cc7
 //
-// 23   Vault      RTC          2x           https://etherscan.io/address/0x7f9a00e03c2e53a3af6031c17a150dbedaaab3dc
+// 23   Vault      RTC          1x           https://etherscan.io/address/0x7f9a00e03c2e53a3af6031c17a150dbedaaab3dc
 //
-// 24   Vault      LIQLO        2x           https://etherscan.io/address/0x59ad6061a0be82155e7acce9f0c37bf59f9c1e3c
+// 24   Vault      LIQLO        1x           https://etherscan.io/address/0x59ad6061a0be82155e7acce9f0c37bf59f9c1e3c
 //
-// 25   Vault      SPECTRE      2x           https://etherscan.io/address/0x441d91f7aaee51c7ae8cab84333d6383a8a8c175
+// 25   Vault      SPECTRE      1x           https://etherscan.io/address/0x441d91f7aaee51c7ae8cab84333d6383a8a8c175
 //
-// 26   Vault      SWSH         2x           https://etherscan.io/address/0x3ac2ab91ddf57e2385089202ca221c360ced0062
+// 26   Vault      SWSH         1x           https://etherscan.io/address/0x3ac2ab91ddf57e2385089202ca221c360ced0062
 //
-// 27   Vault      PSHP         2x           https://etherscan.io/address/0x88d59ba796fdf639ded3b5e720988d59fdb71eb8
+// 27   Vault      PSHP         1x           https://etherscan.io/address/0x88d59ba796fdf639ded3b5e720988d59fdb71eb8
+//
+// 27   Vault      VSDC         2x           https://etherscan.io/address/0x7311cd50667eff17f4e97dffbe9683aec47e4890
 //
 //
 //
